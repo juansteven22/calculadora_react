@@ -7,7 +7,7 @@ import BotonClear from './componentes/BotonClear';
 import { useState } from 'react'
 import { evaluate } from 'mathjs'
 function App() {
-  const [input , setInput]=useState(''); //'escribe algo'
+  const [input , setInput]=useState(''); //'escribe algo' hola amigo
   const agregarInput = val =>{
     setInput(input+val);
   };
